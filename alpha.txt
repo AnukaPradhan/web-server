@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class ReverseString 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the string to reverse");
+		Scanner scan=new Scanner(System.in);
+		String os=scan.nextLine();
+		int len=os.length();
+		String rs="";
+
+for (int i=len-1;i>=0;i--)
+{
+rs=rs+os.charAt(i);
+System.out.println(" Reverse of the original string is " +rs);
+}
+	
+        
+}	
+}
